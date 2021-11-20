@@ -16,8 +16,9 @@
 `API_ID`: api key of your assistant account from [my.telegram.org](https://my.telegram.org) 
 `SESSION_NAME`: get it from
 
-
 [![Run on Repl.it](https://repl.it/badge/github/ChankitSaini/GenerateStringSession)](https://replit.com/@ChankitSaini/GenerateStringSession)
+
+
 `API_HASH`: api hash of your assistant account from [my.telegram.org](https://my.telegram.org)
 
 `BOT_NAME`: name of your bot fill anything
