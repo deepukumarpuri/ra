@@ -10,7 +10,7 @@
 [![DeploY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # Variables
-`BOT_TOKEN`: A Token Or access id of your bot from [@botfather](t.me/botfather) 
+`BOT_TOKEN`: A Token Or access id of your bot from [@botfather](https://t.me/botfather) 
 # Credit 🔥 
 ```
 Louis 
