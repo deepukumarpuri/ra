@@ -1,9 +1,9 @@
 {
-    "name": "PratheekxAakash Music Bot",
-    "logo": "https://telegra.ph/file/489215cccbfb59feaf118.jpg",
-    "description": "Pratheek Music Allow You To Stream Music Trought The Telegram Voice Chat Feature.",
+    "name": "RadioBot",
+    "logo": "https://telegra.ph/file/f13a92186c5aab057dfe2.jpg",
+    "description": "DeCode Radio Allow You To Stream live radio Trought The Telegram Voice Chat Feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/PratheekXD/PratheekxAakash",
+    "repository": "https://github.com/TeamDeeCode/Radio",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -16,11 +16,6 @@
         },
         "BOT_NAME": {
             "description": "fill with your music bot name.",
-            "required": true,
-            "value": ""
-        },
-        "OWNER_ID": {
-            "description": "fill with your telegram id as the owner of the bot",
             "required": true,
             "value": ""
         },
