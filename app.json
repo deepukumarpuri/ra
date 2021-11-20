@@ -1,38 +1,49 @@
 {
-    "name": "Radio",
-    "description": "Telegram Radio Vc Bot",
-    "logo": "https://telegra.ph/file/9595d2a5fc64b2f17f252.jpg",
-    "keywords": [
-        "TeamDeeCode",
-        "Radio",
-        "TelegramBot"
-    ],
-    "repository": "https://github.com/TeamDeeCode/radio",
+    "name": "PratheekxAakash Music Bot",
+    "logo": "https://telegra.ph/file/489215cccbfb59feaf118.jpg",
+    "description": "Pratheek Music Allow You To Stream Music Trought The Telegram Voice Chat Feature.",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/PratheekXD/PratheekxAakash",
+    "stack": "container",
     "env": {
-        "BOT_TOKEN": {
-            "description": "Your Telegram Bot Token from @BotFather",
-            "value": ""
-        "BOT_USERNAME": {
-            "description": "Your Telegram Bot Username Without @",
-            "value": ""
-        "BOT_NAME": {
-            "description": "Your Telegram bot name",
-            "value": ""
         "SESSION_NAME": {
-            "description": "Your Assistant Id String Session",
+            "description": "fill with the pyrogram session string",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token from @BotFather",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "fill with your music bot name.",
+            "required": true,
             "value": ""
-        }
+        },
+        "OWNER_ID": {
+            "description": "fill with your telegram id as the owner of the bot",
+            "required": true,
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "fill with your bot username without @",
+            "required": true,
+            "value": "aturma_vcbot"
+        },
+        "API_ID": {
+            "description": "your Api ID from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "your Api Hash from my.telegram.org/apps",
+            "required": true
+        },
     },
-    "addons": [],
     "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     }
+  ]
 }
