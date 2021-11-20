@@ -6,8 +6,11 @@
 # How To Host 
 [![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/TeamDeeCode/Radio&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_NAME)
 
-# Deploy To Heroku
-[![DeploY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+## ✨ Heroku Deploy ✨
+The easiest way to deploy this Bot is via Heroku.
+
+<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/TeamDeeCode/radio"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
 
 # Variables
 `BOT_TOKEN`: A Token Or access id of your bot from [@botfather](https://t.me/botfather) 
