@@ -11,6 +11,8 @@
 
 # Variables
 `BOT_TOKEN`: A Token Or access id of your bot from [@botfather](https://t.me/botfather) 
+`API_ID`: api key of your assistant account from my.telegram.org
+
 # Credit 🔥 
 ```
 Louis 
