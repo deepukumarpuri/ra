@@ -22,6 +22,7 @@
 
 `BOT_NAME`: name of your bot fill anything
 
+`BOT_USERNAME`: Username Of Your Bot
 
 # Credit 🔥 
 ```
