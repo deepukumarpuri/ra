@@ -1,9 +1,15 @@
 {
-    "name": "RadioBot",
-    "logo": "https://telegra.ph/file/f13a92186c5aab057dfe2.jpg",
-    "description": "DeCode Radio Allow You To Stream live radio Trought The Telegram Voice Chat Feature.",
-    "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/TeamDeeCode/Radio",
+    "name": "Radio Player",
+    "description": "A VCVideoPlayer Bot for Telegram made with 💞 By @DeeCodeBots",
+    "logo": "https://telegra.ph/file/e1be1a6fcb7f0e37c297f.jpg",
+    "keywords": [
+        "pytgcalls",
+        "Telegram Bot",
+        "Vc Steramer"
+    ],
+    "website": "https://t.me/DeeCodeBots",
+    "repository": "https://github.com/TeamDeeCode/VcVideoPlayer",
+    "success_url": "https://t.me/DeeCodeBots",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
