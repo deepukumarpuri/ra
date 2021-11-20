@@ -21,6 +21,9 @@ ydl = YoutubeDL(ydl_opts)
 FFMPEG_PROCESSES = {}
 RADIO_CALL = {}
 
+STREAM_IMG = "https://telegra.ph/file/353c6d9242326eb0ca9af.jpg", 
+STOP_IMG = "https://telegra.ph/file/1e099a211c8fbbd9c70ba.jpg"
+
 
 @Client.on_message(filters.command("radio"))
 async def stream(client, m: Message):
@@ -78,7 +81,7 @@ async def stream(client, m: Message):
         group_call = GroupCall(app, input_filename, path_to_log_file='')
         await group_call.start(chat_id)
         RADIO_CALL[chat_id] = group_call
-        await radiostrt.edit(f'📻 Started **[Live Streaming]({query})** in `{chat_id}`', disable_web_page_preview=True)
+        await radiostrt.edit(f' 📻 Started **[Live Streaming]({query})** in `{chat_id}`', disable_web_page_preview=True)
     
         
 @Client.on_message(filters.command("stop"))
@@ -95,6 +98,6 @@ async def stopradio(client, m: Message):
     if chat_id in RADIO_CALL:
         await RADIO_CALL[chat_id].stop()
         RADIO_CALL.pop(chat_id)
-        await smsg.edit(f'**⏹ Stopped Streaming!**')
+        await smsg.edit(f'**Stopped Streaming**')
     else:
         await smsg.edit(f'`Nothing is Streaming!`')
