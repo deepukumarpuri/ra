@@ -2,4 +2,4 @@ Pytgcalls
 Pyrogram
 Tgcrypto
 ffmpeg-python
-git+https://github.com/Itsunknown-12/yt-dl@master
+git+https://github.com/BrayDanXD/yt-dl@master
