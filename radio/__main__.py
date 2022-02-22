@@ -1,4 +1,5 @@
-from pyrogram import Client, idle
+from pyrogram import Client
+from pytgcalls import idle
 from config import API_ID, API_HASH, BOT_TOKEN
 from radio.radio import app
 
@@ -10,6 +11,6 @@ bot = Client(
     plugins=dict(root="radio"),
 )
 
-bot.start()
+bot.run()
 app.start()
 idle()
