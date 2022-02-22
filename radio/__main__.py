@@ -1,5 +1,5 @@
 from pyrogram import Client
-from pytgcalls import idle
+from pyrogram import idle
 from config import API_ID, API_HASH, BOT_TOKEN
 from radio.radio import app
 
