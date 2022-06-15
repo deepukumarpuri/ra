@@ -1,4 +1,4 @@
-Pytgcalls==0.4.0
+Pytgcalls
 Pyrogram==1.4.5
 Tgcrypto
 ffmpeg-python
